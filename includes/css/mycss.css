@@ -1,0 +1,344 @@
+body {
+    font-family: Ubuntu, sans-serif;
+}
+
+@font-face {
+    font-family: 'Trocchi';
+    src: url('../../fonts/trocchi.otf');
+}
+
+div.row {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    padding-top: 3%;
+}
+
+hr {
+    margin-left: 22%;
+    margin-right: 22%;
+    border: none;
+    height: 3px;
+    color: black;
+    background-color: black;
+}
+
+img.skillpic {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+    display: block;
+    transition: .25s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .25s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+div.col-md-4.col-sm-6.col-xs-12:hover .skillpic {
+    opacity: 0.3;
+}
+
+div.col-md-4.col-sm-6.col-xs-12:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: #86ba90;
+    color: floralwhite;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+div.col-md-4.col-sm-6.col-xs-12 {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-default {
+    background-color: black;
+    border-color: black;
+    color: #86ba90;
+}
+
+/* Title */
+.navbar-default .navbar-brand {
+    color: #86ba90;
+}
+
+div.buttons {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+h1 {
+    margin-top: 18%;
+    font-family: 'Vibur', cursive;
+    font-size: 60px;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    color: floralwhite;
+    font-size: large;
+}
+
+.navbar-default .navbar-nav {
+    padding-right: 40px;
+}
+
+a.btn.btn-primary.btn-lg {
+    background-color: #86ba90;
+    color: floralwhite;
+    border: #86ba90;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: black;
+    background-color: floralwhite;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: black;
+    background-color: #86ba90;
+    border: #86ba90;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: black;
+    background-color: floralwhite;
+}
+
+.navbar-toggle.collapsed {
+    background-color: #86ba90;
+    border-color: #86ba90;
+    color: floralwhite;
+}
+
+div.modal-footer {
+    text-align: center;
+    background-color: black;
+    color: floralwhite;
+}
+
+a.btn.btn-primary.btn-lg:hover {
+    background-color: floralwhite;
+    color: black;
+    border: black;
+}
+
+.tilt {
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.tilt:hover {
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+    opacity: 1;
+    -webkit-filter : invert(1);
+    filter: invert(1);
+}
+
+.brand {
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.brand:hover {
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+    width: 32.5px;
+    height: 32.5px;
+}
+
+h3 {
+    text-align: center;
+    color: black;
+    margin-bottom: 2.5%;
+    margin-top: -1%;
+}
+
+.end {
+    font-size: 50px;
+}
+
+.site {
+    text-align: center;
+}
+
+.websites {
+    width: 100%;
+}
+
+.container.webpics {
+    width: 75%;
+}
+
+img.websites {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+    display: block;
+    transition: .25s ease;
+    backface-visibility: hidden;
+}
+
+img.websites:hover {
+    opacity: 0.7;
+}
+
+p.description {
+    text-align: justify;
+    margin-right: 7%;
+    margin-left: 7%;
+    font-size: large;
+}
+
+div.aboutpic {
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: black;
+}
+
+img.myphoto {
+    width: 100%;
+    height: auto;
+    border-color: black;
+    border-width: 3px;
+    margin: 0;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    padding: 1%;
+    opacity: .9;
+    display: block;
+    transition: .25s ease;
+    backface-visibility: hidden;
+}
+
+img.myphoto:hover {
+    -webkit-filter: grayscale(0) contrast(1) brightness(1.25);
+    filter: grayscale(0) contrast(1) brightness(1.25);
+    opacity: 1;
+}
+
+.center {
+    transition: .25s ease;
+    opacity: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+div.webpics:hover .center {
+    opacity: 1;
+}
+
+.message {
+    background-color: black;
+    color: floralwhite;
+    font-size: 18px;
+    padding: 18px 28px;
+}
+
+html, body {
+    margin:0;
+    padding:0;
+}
+
+body { background:transparent; }
+body:after {
+    content:"";
+    position:fixed;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    z-index:-1;
+    display:block;
+    background:url(../../images/kubhero.jpg) no-repeat 50% 50%;
+    background-size:cover;
+}
+
+.wrapper {
+    background-color: white;
+    margin:0;
+    padding:15px;
+}
+
+p {background:#fff;margin:0;padding:1em}
+
+.parallax {height:600px;
+    color: floralwhite;
+    text-align: center;
+}
+
+.parallax h1,
+.parallax .h1 {
+    color: inherit;
+    background-color: transparent;
+}
+.parallax p {
+    font-size: 21px;
+    font-weight: 200;
+    background-color: transparent;
+}
+
+
+.parallax .container {
+    max-width: 100%;
+}
+
+p {
+    background-color: transparent;
+    font-size: 16px;
+}
+
+li.tilt {
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    width: 80px;
+    padding: 0;
+    margin: 0;
+}
+ul.list-inline {
+    padding: 0;
+    text-align: center;
+}
+

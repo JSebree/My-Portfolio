@@ -1,0 +1,15 @@
+/* CSS Document */
+body{background-color:#FFC}
+#wrapper{border:thin solid black}
+#adminnav{ text-align:right; }
+#mainheader{font-size:36px; text-align:center}
+#primarynav{ text-align:center; float:none; clear:both; height:30px;}
+#primarynav ul{margin-left:auto; margin-right:auto}
+#mainarea{float:none; clear:both;}
+#footer{float:none; clear:both; text-align:center; border-top:thin solid black; border-bottom:thin solid black}
+
+.highlight{background-color:#CCC}
+.highlight img{float:left; margin:3px}
+.booklistingtitle{font-weight:800}
+
+.details img{float:left; margin:5px}

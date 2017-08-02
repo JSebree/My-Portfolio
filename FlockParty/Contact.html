@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+    <title>
+        Contact
+    </title>
+    <link href="../includes/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="flockcss.css" rel="stylesheet">
+    <script type="text/javascript" src="../includes/js/jQuery/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="../includes/bootstrap/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div id="nav" class="navigation">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img alt="Brand" src="eagleicon.jpg" class="brand" width="30px" height="30px">
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Flock Party <span class="sr-only">(current)</span></a></li>
+                    <li><a href="Flocks.html" class="nav-link">Flocks</a></li>
+                    <li><a href="Contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</div>
+<div id="contact" class="contact">
+    <h2> Contact Me</h2>
+        <p>
+            Let us know what you think of Flock Party!
+        </p>
+    <form id="contact_form" class="contact" action="http://webdevfoundations.net/scripts/formdemo.asp" method="POST" enctype="multipart/form-data">
+        <div class="form">
+            <label for="name">Your name:</label><br />
+            <input id="name" class="input" name="name" type="text" value="" size="40" /><br />
+        </div>
+        <div class="form">
+            <label for="email">Your email:</label><br />
+            <input id="email" class="input" name="email" type="text" value="" size="40" /><br />
+        </div>
+        <div class="form">
+            <label for="message">Your message:</label><br />
+            <textarea id="message" class="input" name="message" rows="10" cols="40"></textarea><br />
+        </div>
+        <input id="submit_button" type="submit" value="Send email" class="btn border1"/>
+    </form>
+    <br style="padding-bottom:10% "/>
+</div>
+<div id="footer" class="footer">
+    Flock Party Games, LLC<br/>
+    A Jerick Sebree Company<br/>
+    jerick_sebree@student.uml.edu
+</div>
+</body>
+</html>
